@@ -37,14 +37,21 @@ class Program
             while ((line = reader.ReadLine()) != null)
             {
                 // get the dial amount
-                dial += GetDialMovement(line);
+                int movement = GetDialMovement(line);
+                int movementDirection;
+                if (movement > 0) movementDirection = 1; else movementDirection = -1;
+                int movementAmount = Math.Abs(movement);
 
-                // is the dial out of bounds? Keep it in bounds
-                while (dial < 0) dial += 100;
-                while (dial > 99) dial -= 100;
+                for (int i = 0; i < movementAmount; i++)
+                {
+                    dial += movementDirection;
 
-                // is the dial at 0? If so, then record it
-                if (dial == 0) dialAtZero++;
+                    // wrap around if needed
+                    if (dial < 0) dial = 99; else if (dial > 99) dial = 0;
+
+                    // check if its at zero
+                    if (dial == 0) dialAtZero++;
+                }
             }
         }
 

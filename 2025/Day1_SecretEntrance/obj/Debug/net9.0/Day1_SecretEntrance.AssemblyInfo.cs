@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Day1_SecretEntrance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8da9965598b76113d29b80166871303f360e7296")]
 [assembly: System.Reflection.AssemblyProductAttribute("Day1_SecretEntrance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Day1_SecretEntrance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
