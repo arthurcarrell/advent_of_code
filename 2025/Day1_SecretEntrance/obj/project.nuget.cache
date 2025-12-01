@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nwd41CcQRd4=",
+  "success": true,
+  "projectFilePath": "/home/arthur/GitRepos/advent_of_code/2025/Day1_SecretEntrance/Day1_SecretEntrance.csproj",
+  "expectedPackageFiles": [
+    "/home/arthur/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
